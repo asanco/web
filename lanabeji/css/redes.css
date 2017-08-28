@@ -11,7 +11,7 @@ header a{
     padding:20px;
     font-weight: 700;
     color: black;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
 }
 
 .menu{
@@ -21,11 +21,11 @@ header a{
 header h1{
     font-weight: 700;
     margin-left: 10px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
 }
 
 header{
-    background-color: forestgreen;
+    background-color: mediumseagreen;
     color:black;
     padding:5px;
 }
@@ -49,7 +49,7 @@ div .col-md-2{
     margin-left: 0.5em;
     margin-right: 0.5em;
     padding-top: 0.4em;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
 }
 
 #blog{
@@ -61,22 +61,22 @@ div .col-md-2{
 }
 
 h3{
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
     font-weight: 800;
 }
 
 #blog{
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
     letter-spacing: 0.3em;
 }
 
 .col-md-10 p{
     font-size: 1.3em;
+    font-family: 'Vollkorn', serif;
 }
 
 footer{
-    background-color: forestgreen;
-
+    background-color: mediumseagreen;
 }
 
 footer .iconos {

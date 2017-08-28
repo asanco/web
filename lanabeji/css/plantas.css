@@ -11,7 +11,7 @@ header a{
     padding:20px;
     font-weight: 700;
     color: black;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
 }
 
 .menu{
@@ -21,11 +21,11 @@ header a{
 header h1{
     font-weight: 700;
     margin-left: 10px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
 }
 
 header{
-    background-color: forestgreen;
+    background-color: mediumseagreen;
     color:black;
     padding:5px;
 }
@@ -50,7 +50,7 @@ header img{
 }
 
 .col-sm-12{
-    background-color: forestgreen;
+    background-color: mediumseagreen;
 }
 .container-fluid .col-sm-4{
     position: relative;
@@ -79,7 +79,7 @@ header img{
 
 
 footer{
-    background-color: forestgreen;
+    background-color: mediumseagreen;
 
 }
 

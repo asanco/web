@@ -11,7 +11,7 @@ header a{
     padding:20px;
     font-weight: 700;
     color: black;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
 }
 
 .menu{
@@ -21,11 +21,11 @@ header a{
 header h1{
     font-weight: 700;
     margin-left: 10px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
 }
 
 header{
-    background-color: forestgreen;
+    background-color: mediumseagreen;
     color:black;
     padding:5px;
 }
@@ -49,11 +49,11 @@ header img{
     border: 0px;
     color: white;
     text-shadow: none;
-    background-color: forestgreen;
+    background-color: mediumseagreen;
 }
 
 .btn.btn-primary:hover {
-    color:forestgreen;
+    color:mediumseagreen;
     background-color: #ffffff;
 }
 
@@ -62,7 +62,7 @@ header img{
 }
 
 footer{
-    background-color: forestgreen;
+    background-color: mediumseagreen;
 
 }
 

@@ -11,7 +11,7 @@ header a{
     padding:20px;
     font-weight: 700;
     color: black;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
 }
 
 .menu{
@@ -21,11 +21,11 @@ header a{
 header h1{
     font-weight: 700;
     margin-left: 10px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
 }
 
 header{
-    background-color: forestgreen;
+    background-color: mediumseagreen;
     color:black;
     padding:5px;
 }
@@ -44,7 +44,7 @@ body{
     left: 1%;
     top: 3%;
     text-align: left;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
 }
 
 #instr{
@@ -53,11 +53,11 @@ body{
     left: 1%;
     top: 24%;
     text-align: left;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
 }
 
 h3, .etiqueta{
-    font-family: 'Sunshiney', cursive;
+    font-family: 'Vollkorn', serif;
 }
 
 .etiqueta{
@@ -229,8 +229,8 @@ h3, .etiqueta{
     top: 74%;
 }
 
-img #linea{
-    width: 100%;
+img#linea{
+    width: 80%;
     height: auto;
     justify-content: center;
 }
@@ -247,7 +247,7 @@ button {
     color: white;
     text-shadow: none;
     background-color: royalblue;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Unica One', cursive;
 }
 
 #grande{
@@ -287,7 +287,7 @@ button {
 
 footer{
     margin-top: 150px;
-    background-color: forestgreen;
+    background-color: mediumseagreen;
 
 }
 
