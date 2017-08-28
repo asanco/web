@@ -1,0 +1,316 @@
+header .row{
+    display:flex;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a{
+    padding:20px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.menu{
+    font-size: 1.3em;
+}
+
+header h1{
+    font-weight: 700;
+    margin-left: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+header{
+    background-color: forestgreen;
+    color:black;
+    padding:5px;
+}
+
+header img{
+    margin-left: 50px;
+}
+
+body{
+
+}
+
+#acerca{
+    position: absolute;
+    font-size: 5em;
+    left: 1%;
+    top: 3%;
+    text-align: left;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#instr{
+    position: absolute;
+    font-size: 1em;
+    left: 1%;
+    top: 24%;
+    text-align: left;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+h3, .etiqueta{
+    font-family: 'Sunshiney', cursive;
+}
+
+.etiqueta{
+    font-size: 1.5em;
+}
+
+.container {
+    position: relative;
+}
+
+.primerAno{
+    position: absolute;
+    left: -15%;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.segundoAno {
+    position: absolute;
+    left: 32%;
+    top: -50px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    visibility: hidden;
+}
+
+.tercerAno {
+    position: absolute;
+    left: 32%;
+    top: 33%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    visibility: hidden;
+}
+
+.cuartoAno{
+     position: absolute;
+     left: -6%;
+     top: 33%;
+     width: 100%;
+     text-align: center;
+     font-size: 18px;
+    visibility: hidden;
+ }
+
+.quintoAno{
+    position: absolute;
+    left: -42%;
+    top: 33%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    visibility: hidden;
+}
+
+.sextoAno{
+    position: absolute;
+    left: -6%;
+    top: 63%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    visibility: hidden;
+}
+
+.septimoAno{
+    position: absolute;
+    left: 32%;
+    top: 63%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    visibility: hidden;
+}
+
+.octavoAno{
+    position: absolute;
+    left: -42%;
+    top: 63%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    visibility: hidden;
+}
+
+.novenoAno{
+    position: absolute;
+    left: -6%;
+    top: 87%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    visibility: hidden;
+}
+
+#cuadro1{
+    position: absolute;
+    width: 23em;
+    height: 2em;
+    background-color: white;
+    left: 46.2%;
+    top: 5%;
+}
+
+#cuadro2{
+    position: absolute;
+    width: 2em;
+    height: 20em;
+    background-color: white;
+    left: 80%;
+    top: 12%;
+}
+
+#cuadro3{
+    position: absolute;
+    width: 23em;
+    height: 2em;
+    background-color: white;
+    left: 46%;
+    top: 38%;
+}
+
+#cuadro4{
+    position: absolute;
+    width: 23em;
+    height: 2em;
+    background-color: white;
+    left: 16%;
+    top: 38%;
+}
+
+#cuadro5{
+    position: absolute;
+    width: 2em;
+    height: 17em;
+    background-color: white;
+    left: 43%;
+    top: 44%;
+}
+
+#cuadro6{
+    position: absolute;
+    width: 22em;
+    height: 2em;
+    background-color: rgb(153,217,234);
+    left: 50%;
+    top: 67%;
+}
+
+#cuadro7{
+    position: absolute;
+    width: 22em;
+    height: 2em;
+    background-color: rgb(153,217,234);
+    left: 11%;
+    top: 67%;
+}
+
+#cuadro8{
+    position: absolute;
+    width: 2em;
+    height: 17em;
+    background-color: white;
+    left: 43%;
+    top: 74%;
+}
+
+img #linea{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.imagenes{
+    height: 200px;
+    width: auto;
+}
+
+button {
+    position: absolute;
+    border-radius: 100px;
+    border: 0px;
+    color: white;
+    text-shadow: none;
+    background-color: royalblue;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#grande{
+    left: 41.8%;
+    top:4%;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+#unoB{
+    left: 89.8%;
+    top:5%;
+    width: 1.7em;
+    height: 1.7em;
+}
+
+#dosB{
+    left: 89.8%;
+    top:38%;
+    width: 1.7em;
+    height: 1.7em;
+}
+
+#tresB{
+    left: 43%;
+    top:30.1%;
+    width: 1.7em;
+    height: 1.7em;
+}
+
+#cuatroB{
+    left: 43%;
+    top:71.5%;
+    width: 1.7em;
+    height: 1.7em;
+}
+
+footer{
+    margin-top: 150px;
+    background-color: forestgreen;
+
+}
+
+footer .iconos {
+    display: flex;
+    justify-content: center;
+}
+
+footer .firma{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+footer li img{
+    width: 32px;
+    height: 32px;
+}
+
+footer img.panda{
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 645px;
+    margin-bottom: 30px;
+}

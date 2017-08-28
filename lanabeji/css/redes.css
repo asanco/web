@@ -1,0 +1,104 @@
+header .row{
+    display:flex;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a{
+    padding:20px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.menu{
+    font-size: 1.3em;
+}
+
+header h1{
+    font-weight: 700;
+    margin-left: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+header{
+    background-color: forestgreen;
+    color:black;
+    padding:5px;
+}
+
+header img{
+    margin-left: 50px;
+}
+
+div .col-md-2{
+    font-size: 3em;
+    color:black;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding-top: 0.4em;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#blog{
+    text-align: center;
+}
+
+#vacio{
+    visibility: hidden;
+}
+
+h3{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 800;
+}
+
+#blog{
+    font-family: 'Gloria Hallelujah', cursive;
+    letter-spacing: 0.3em;
+}
+
+.col-md-10 p{
+    font-size: 1.3em;
+}
+
+footer{
+    background-color: forestgreen;
+
+}
+
+footer .iconos {
+    display: flex;
+    justify-content: center;
+}
+
+footer .firma{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+footer li img{
+    width: 32px;
+    height: 32px;
+}
+
+footer img.panda{
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 645px;
+    margin-bottom: 30px;
+}

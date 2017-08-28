@@ -1,0 +1,131 @@
+header .row{
+    display:flex;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a{
+    padding:20px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.menu{
+    font-size: 1.3em;
+}
+
+header h1{
+    font-weight: 700;
+    margin-left: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+header{
+    background-color: forestgreen;
+    color:black;
+    padding:5px;
+}
+
+header img{
+    margin-left: 50px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    letter-spacing: 0.3em;
+}
+
+
+#dnc{
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 90px;
+}
+
+#uno,#dos,#tres{
+    width: 449px;
+    height: 370px;
+    border-radius: 50px;
+}
+
+#cuatro,#cinco{
+    height: 460px;
+    border-radius: 50px;
+}
+
+#seis,#siete,#ocho{
+    height: 300px;
+    border-radius: 50px;
+}
+.col-sm-4,.col-sm-6{
+    margin-bottom: 10px;
+}
+
+#verso{
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+.titulos{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 800;
+}
+
+#cita{
+    text-align: right;
+}
+
+button{
+    width: 50%;
+    border-radius: 2px;
+    border: 0px;
+    color: white;
+    text-shadow: none;
+    background-color: forestgreen;
+    border-style: solid;
+    font-family: 'Gloria Hallelujah', cursive;
+    letter-spacing: 0.2em;
+}
+button:hover{
+    color:forestgreen;
+    background-color: #ffffff;
+}
+
+h4{
+    visibility: hidden;
+}
+footer{
+    background-color: forestgreen;
+
+}
+
+footer .iconos {
+    display: flex;
+    justify-content: center;
+}
+
+footer .firma{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+footer li img{
+    width: 32px;
+    height: 32px;
+}
+
+footer img.panda{
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 645px;
+    margin-bottom: 30px;
+}
+

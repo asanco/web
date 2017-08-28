@@ -1,0 +1,108 @@
+header .row{
+    display:flex;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a{
+    padding:20px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.menu{
+    font-size: 1.3em;
+}
+
+header h1{
+    font-weight: 700;
+    margin-left: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+header{
+    background-color: forestgreen;
+    color:black;
+    padding:5px;
+}
+
+header img{
+    margin-left: 50px;
+}
+
+.col-sm-4 img{
+    width:400px;
+    height: 300px;
+    border-radius: 10%;
+    opacity: 0.5;
+    color: rgba(0, 0, 0, 0.0);
+    align-content: center;
+    padding-bottom: 10%;
+}
+
+.col-sm-4 img:hover{
+    opacity: 1;
+    color: rgba(0, 0, 0, 1.0);
+}
+
+.col-sm-12{
+    background-color: forestgreen;
+}
+.container-fluid .col-sm-4{
+    position: relative;
+}
+
+.texto{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 30%;
+    opacity: 1;
+    text-align: center;
+    background-color: white;
+}
+
+.texto1{
+    position: absolute;
+    margin-top: 25%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: white;
+}
+
+.texto:hover{
+    color: red;
+}
+
+
+footer{
+    background-color: forestgreen;
+
+}
+
+footer .iconos {
+    display: flex;
+    justify-content: center;
+}
+
+footer .firma{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+footer li img{
+    width: 32px;
+    height: 32px;
+}
+
+footer img.panda{
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 645px;
+    margin-bottom: 30px;
+}
