@@ -37,10 +37,10 @@ header img{
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url("https://lh3.googleusercontent.com/-oChFK_vxXEKeAaX6C92Nit6G6AFQQoMw9hYU58vaW9h0mMZ2fDbp379daaUCWalahZ8DRaq9mriOTqYCIUhzYSiTZyIpHyey7BQm5oCzd3OHbz5Jew7SXbpGSPcWxJFSQYGlCXMKm_I8CqhpMrzo5uxWnUC69Gx2btXsQ66cla4Vw2tEazn3DbZofbru9Jdeh3dWT9LqUKqA7Biq5sSw0e1-kwGaVerHNEll3mB7E5t_QV5fys9WStu6eNN7gXMm2EohlNnOLRLTCmUv68cuIlqiBgIZjHIeX9FG2zsZm38gXvdP2yVyHEv3xvD-VH02bZExUWaBTiV-KEecBoheCU2xg0nE93S-h1y3suVy64hvDkywBGSJA6jpVzu53O8I91bSzBCkOxuyEdPIkR0qFXJPVenaEES2Ok6IFBOiNOaZti2C15f8DnI0vekIjgwoGbubXHJX6DkZcKhjVcmiXrI9XnpiwlZq2TQYMgFz3SNqP9BXN49u3S_jHjBh9CyHFPLa50kSlb8Rzz4zvX0U18rZdKtiIa0S3KvXtE62BF-JSfUYytceAK15IENoyJoND6aN6lBu1HEo88j8-ZFQw7asS5wJQz46va9W-VjRJcwAaAaX06T=w1366-h308-no");
-    background-size: cover;
+    background-size: 100%;
+    width: 100%;
+    height: 20em;
     color: #ffffff;
-    height: 500px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
