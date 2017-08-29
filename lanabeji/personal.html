@@ -26,140 +26,68 @@
 
 <h2 style="visibility: hidden;">fsdf</h2>
 <div class="container">
-    <img id="linea" src="flechas.png">
     <section class="row">
-        <div class="primerAno" id="primero">
+        <div id="acerca" class="col-sm-6">
+            <p>Acerca<br>de mi</p>
+        </div>
+        <div class="col-sm-6" id="primero">
+            <button id="grande" onclick="mostrarSegundo()">1</button>
             <h3>1998</h3>
             <p class="etiqueta">Nacimiento</p>
         </div>
-        <div class="segundoAno" id="segundo">
+        <div class="col-sm-12" id="instr">
+            <p>*Haz click en el círculo azul más grande y sigue la secuencia</p>
+        </div>
+        <div class="col-sm-12" id="segundo">
+            <button id="unoB" onclick="mostrarTercero()">2</button>
             <h3>2002</h3>
             <p class="etiqueta">Primer año de colegio</p>
             <img class="imagenes" src="colegio.jpg">
         </div>
-        <div class="tercerAno" id="tercero">
+        <div class="col-sm-4" id="tercero">
+            <button id="dosB" onclick="mostrarCuarto()">3</button>
             <h3>2014</h3>
-            <p class="etiqueta">Banda Heráldica<br>Niña María</p>
+            <p class="etiqueta">Banda Heráldica Niña María</p>
             <img class="imagenes" src="banda.JPG">
         </div>
-        <div class="cuartoAno" id="cuarto">
+        <div class="col-sm-4" id="cuarto">
+            <button id="tresB" onclick="mostrarSexto()">4</button>
             <h3>2014</h3>
             <p class="etiqueta">Entrada <br>al programa SPP</p>
         </div>
-        <div class="quintoAno" id="quinto">
+        <div class="col-sm-4" id="quinto">
+            <button id="dosdosB" onclick="mostrarCuarto()">3</button>
             <h3>2014</h3>
             <p class="etiqueta">Grado bachillerato</p>
             <img class="imagenes" src="grado.JPG">
         </div>
-        <div class="sextoAno" id="sexto">
+        <div class="col-sm-12" id="sexto">
+            <button id="cuatroB" onfocus="mostrarSepOctNov()">5</button>
             <h3>2015</h3>
             <p class="etiqueta">Entrada a la<br>Universidad de Los Andes</p>
         </div>
-        <div class="septimoAno" id="septimo">
+        <div class="col-sm-6" id="septimo">
             <h3>2015</h3>
             <p class="etiqueta">Premio Andrés Bello</p>
             <img class="imagenes" src="andres.JPG">
         </div>
-        <div class="octavoAno" id="octavo">
+        <div class="col-sm-6" id="octavo">
             <h3>2015</h3>
             <p class="etiqueta">Medalla del Civismo</p>
             <img class="imagenes" src="medalla.JPG">
         </div>
-        <div class="novenoAno" id="noveno">
+        <div class="col-sm-12" id="noveno">
             <h3>2015-2019</h3>
             <p class="etiqueta">Estudiante de Ingeniería de Sistemas y Computación</p>
             <img class="imagenes" src="actual.JPG">
         </div>
-        <div id="cuadro1">
-        </div>
-        <div id="cuadro2">
-        </div>
-        <div id="cuadro3">
-        </div>
-        <div id="cuadro4">
-        </div>
-        <div id="cuadro5">
-        </div>
-        <div id="cuadro6">
-        </div>
-        <div id="cuadro7">
-        </div>
-        <div id="cuadro8">
-        </div>
 
-        <div id="acerca">
-            <p>Acerca<br>de mi</p>
-        </div>
 
-        <div id="instr">
-            <p>*Haz click en el círculo azul más grande y sigue la secuencia</p>
-        </div>
-        <button id="grande" onclick="mostrarSegundo()">1</button>
-        <button id="unoB" onclick="mostrarTercero()">2</button>
-        <button id="dosB" onclick="mostrarCuartoQuinto()">3</button>
-        <button id="tresB" onclick="mostrarSexto()">4</button>
-        <button id="cuatroB" onfocus="mostrarSepOctNov()">5</button>
     </section>
 
 </div>
 
-<script>
-    var segundo = document.getElementById("segundo");
-    var tercero = document.getElementById("tercero");
-    var cuarto = document.getElementById("cuarto");
-    var quinto = document.getElementById("quinto");
-    var sexto = document.getElementById("sexto");
-    var septimo = document.getElementById("septimo");
-    var octavo = document.getElementById("octavo");
-    var noveno = document.getElementById("noveno");
-
-    var cuadro1 = document.getElementById("cuadro1");
-    var cuadro2 = document.getElementById("cuadro2");
-    var cuadro3 = document.getElementById("cuadro3");
-    var cuadro4 = document.getElementById("cuadro4");
-    var cuadro5 = document.getElementById("cuadro5");
-    var cuadro6 = document.getElementById("cuadro6");
-    var cuadro7 = document.getElementById("cuadro7");
-    var cuadro8 = document.getElementById("cuadro8");
-
-    function mostrarSegundo() {
-        segundo.style.visibility="visible";
-        cuadro1.style.visibility="hidden";
-        cuadro2.style.top="20.2%";
-        document.getElementById("grande").style.backgroundColor="indigo";
-    }
-
-    function mostrarTercero(){
-        tercero.style.visibility="visible";
-        cuadro2.style.visibility="hidden";
-        document.getElementById("unoB").style.backgroundColor="indigo";
-    }
-
-    function mostrarCuartoQuinto(){
-        cuarto.style.visibility="visible";
-        quinto.style.visibility="visible";
-        cuadro3.style.visibility="hidden";
-        cuadro4.style.visibility="hidden";
-        document.getElementById("dosB").style.backgroundColor="indigo";
-    }
-
-    function mostrarSexto(){
-        sexto.style.visibility="visible";
-        cuadro5.style.visibility="hidden";
-        document.getElementById("tresB").style.backgroundColor="indigo";
-    }
-
-    function mostrarSepOctNov(){
-        septimo.style.visibility="visible";
-        octavo.style.visibility="visible";
-        noveno.style.visibility="visible";
-        cuadro6.style.visibility="hidden";
-        cuadro7.style.visibility="hidden";
-        cuadro8.style.visibility="hidden";
-        document.getElementById("cuatroB").style.backgroundColor="indigo";
-    }
-
-</script>
+<script src="js/linea.js"></script>
 
 </body>
 
