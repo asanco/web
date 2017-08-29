@@ -38,15 +38,10 @@ header img{
     width:400px;
     height: 300px;
     border-radius: 10%;
-    opacity: 0.5;
+    opacity: 1;
     color: rgba(0, 0, 0, 0.0);
     align-content: center;
     padding-bottom: 10%;
-}
-
-.col-sm-4 img:hover{
-    opacity: 1;
-    color: rgba(0, 0, 0, 1.0);
 }
 
 .col-sm-12{
@@ -62,7 +57,7 @@ header img{
     margin-left: 30%;
     opacity: 1;
     text-align: center;
-    background-color: white;
+
 }
 
 .texto1{
@@ -70,13 +65,31 @@ header img{
     margin-top: 25%;
     margin-right: 10%;
     text-align: center;
-    background-color: white;
 }
 
-.texto:hover{
-    color: red;
+.imagen{
+    position: absolute;
+    z-index: 3;
 }
 
+.imagen:hover{
+    z-index: -1;
+}
+
+.gif:hover{
+    z-index: 3;
+}
+.gif{
+    position: relative;
+    z-index: 1;
+}
+
+
+#hobbies{
+    font-family: 'Unica One', cursive;
+    text-align: center;
+    margin: 1em;
+}
 
 footer{
     background-color: mediumseagreen;
