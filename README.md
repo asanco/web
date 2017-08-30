@@ -1,4 +1,4 @@
-# web
+# Lanabeji
 Lanabeji es mi página web personal, Lanabeji son las sílabas de mi nombre y apellido, Laura Natalia Bello Jiménez.
 En la página principal se encuentra un pequeño resumen de mi vida y en la parte superior están las subpáginas: Personal, ministerio, intereses y blog.
 En personal se encuentra una línea del tiempo, se debe ir haciendo click en los círculos para que vayan apareciendo los años.
