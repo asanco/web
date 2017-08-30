@@ -29,4 +29,5 @@ otros años. Además estoy orgullosa de la sección de intereses, de poder mostr
 Adicionalmente, me enorgullece mostrar mis escritos y que las personas puedan decidir si los leen completos o si solo leen el comienzo, 
 todo esto gracias al uso de collapse de CSS.
 
+Demo: https://www.youtube.com/watch?v=b0u7YpanF54
 **Nota: La página web se ve mejor usando un dispositivo de 14 pulgadas con una resolución de 1366 x 768 
